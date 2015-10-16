@@ -1,0 +1,55 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_vacuum"
+    >
+    <TableRow  android:minHeight="200px" >
+    </TableRow>
+
+
+    <TableRow android:minHeight="150px">
+
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="43dp"
+            android:text="VACUNO"
+            android:textColor="#fff"
+            android:onClick="sendVacuumClick"/>
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="43dp"
+            android:text="OVINO"
+            android:textColor="#fff" />
+    </TableRow>
+
+    <TableRow android:minHeight="130px">
+    </TableRow>
+    <TableRow android:minHeight="150px">
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="43dp"
+            android:text="PORCINO"
+            android:textColor="#fff" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="43dp"
+            android:text="OTROS"
+            android:textColor="#fff" />
+    </TableRow>
+
+    <TableRow android:minHeight="300px">
+    </TableRow>
+</TableLayout>
